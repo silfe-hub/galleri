@@ -2,23 +2,79 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid red;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .header {
+    width: 100%;
     background-color: #1f2937;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 250px;
+    align-items: center;
 }
 
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    }
+
+.top-section-left {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+}  
+
+.top-section-left button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.top-container p {
+   font-size: 18px;
+   font-weight: normal;
+   color: #E5E7EB;
+   margin-top: 10px;
+}    
+
+.top-container img {
+    height: fit-content;
+    width: auto;
+    display: flex;
+    justify-self: flex-end;
+}
+
+.top-container button {
+    height: 50px;
+    width: auto;
+    margin: 0;
+}
 ul {
     display: flex;
+    justify-self: flex-end;
     list-style-type: none;
+    gap: 20px
 }
 
 a {
@@ -26,6 +82,4 @@ a {
     font-size: 18px;
     font-weight: lighter;
     color: #E5E7EB;
-    margin: 10px;
-    gap: 200px;
 }
