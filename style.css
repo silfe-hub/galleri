@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.header {
+    background-color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB;
+    margin: 10px;
+    gap: 200px;
+}
