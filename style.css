@@ -4,12 +4,12 @@ body {
     background-color: #1f2937;
     margin: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .top-container {
     display: flex;
-    flex-direction: column;
-    outline: 2px solid red;
+    flex-direction: column;   
     padding-left: 10%;
     padding-right: 10%;
     height: 25%;
@@ -19,12 +19,16 @@ body {
 .header {
     width: 100%;
     background-color: #1f2937;
-    font-size: 24px;
-    font-weight: bold;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .top-section {
@@ -41,10 +45,12 @@ body {
     text-wrap: wrap;
     overflow: hidden;
     flex-shrink: 1;
+    font-size: 18px;
+    font-weight: normal;
+    color: #E5E7EB;
 }  
 
 .top-section-right {
-    outline: 2px solid red;
     display: flex;
     flex-shrink: 0;
     width: 600px;
@@ -69,14 +75,7 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     margin: 0;
-}
-
-.top-container p {
-   font-size: 18px;
-   font-weight: normal;
-   color: #E5E7EB;
-   margin-top: 10px;
-}    
+}  
 
 
 .top-container button {
