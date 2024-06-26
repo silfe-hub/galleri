@@ -137,6 +137,7 @@ a {
     object-fit: cover;
     border-radius: 10px;
     outline: 4px solid #3882f6;
+    cursor: pointer;
 }
 
 .bottom-section {
