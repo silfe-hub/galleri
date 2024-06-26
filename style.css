@@ -12,6 +12,9 @@ body {
     outline: 2px solid red;
     padding-left: 10%;
     padding-right: 10%;
+    max-height: 25%;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .header {
@@ -27,21 +30,22 @@ body {
 
 .top-section {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-height: 20%;
+    gap: 5%;
     padding-top: 48px;
     }
 
 .top-section-left {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     text-wrap: wrap;
     overflow: hidden;
     flex-shrink: 1;
-    text-align: justify;
 }  
 
+.top-section-right {
+    outline: 2px solid red;
+}
 .top-section-left button {
     background-color: #3882f6;
     color: #E5E7EB;
@@ -54,7 +58,6 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     margin: 0;
-    max-width: 50%;
 }
 
 .top-container p {
@@ -62,16 +65,14 @@ h1 {
    font-weight: normal;
    color: #E5E7EB;
    margin-top: 10px;
-   max-width: 50%;
 }    
 
 .top-container img {
-    height: 20%;
-    width: auto;
+    width: 600px;
+    height: fit-content;
     display: flex;
     justify-self: flex-end;
     flex-shrink: 0;
-    margin-bottom: 48px;
 }
 
 .top-container button {
