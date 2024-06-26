@@ -2,7 +2,6 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
     margin: 0;
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -35,6 +34,7 @@ a {
 }
 
 .top-container {
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;   
     padding-left: 10%;
@@ -92,4 +92,19 @@ a {
     width: auto;
     margin: 0;
     cursor: pointer;
+}
+
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    outline: 2px solid red;
+}
+
+.middle-section h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
