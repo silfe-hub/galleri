@@ -99,7 +99,9 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #F9FAF8;
+    height: 25%;
     outline: 2px solid red;
+    padding-bottom: 48px;
 }
 
 .middle-section h3 {
@@ -107,4 +109,28 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
